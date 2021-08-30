@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&display=swap');
+html,body {
+   overflow-x: hidden !important;
+}
+.custom-me{
+   display: flex !important;
+   justify-content: space-evenly;
+   
+
+}
+.slick-dots{
+   position: initial !important;
+   margin-top: 65px !important;
+}
+.slick-dots li.slick-active button:before {
+   opacity: .75;
+   color: #ED017F !important;
+   font-size: 13px !important
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
